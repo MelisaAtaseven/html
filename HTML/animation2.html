@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+.y{
+    border-radius: 100px;
+    width: 500px;
+    height: 500px;
+    width: 100px;
+    height: 100px;
+}
+div {
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100px;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   { left:200px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:0px; top:0px;}
+    75%  {left:0px; top:0px;}
+    100% {left:200px; top:0px;}
+}
+
+
+.z{
+	width: 300px;
+	height: 30px;
+}
+
+
+
+	</style>
+
+</head>
+
+<body>
+
+<div class="y" x="100" y="100" height="270" width="450">  <img src="images.jpg"></div>
+<div class="z" x="180" y="214" width="440" height="40" rx="3" ry="3" fill="#006" fill-opacity="0.5" stroke="none">yazı </div>	
+</body>
+</html>

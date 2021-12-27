@@ -1,0 +1,11 @@
+h1{
+	color: magenta;
+	background-color: white;
+	border:dashed 1px blue;
+}
+h3{
+	color: orange;
+	background-color: white;
+	border:dashed 1px red;
+}
+

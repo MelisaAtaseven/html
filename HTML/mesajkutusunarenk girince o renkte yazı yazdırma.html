@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	</head>
+<style>
+
+#seker{
+	font-size:62px;
+
+}
+</style>
+<body>
+<script type='text/javascript'>
+
+
+function degis(){
+	var renk= document.getElementById("renk").value;
+	var yaz=document.getElementById("seker");
+	yaz.style.color=renk;
+
+}
+
+
+</script>
+rengi giriniz: <input type="text" id="renk"><br>
+<button onclick="degis()">değiştir</button>
+<p id="seker">melisa</p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title>true false</title>
+</head>
+<body>
+	<h3> A demonstration of now to access a silder control</h3>
+	<input type="range" id="myRange" value="90" onclick="myFunction()">
+	<span id="demo"></span>
+<script> 
+function myFunction(){
+	var x = document.getElementById("myRange").value;
+	document.getElementById("demo").innerHTML = x;
+
+   }
+</script>
+</body>
+</html>
